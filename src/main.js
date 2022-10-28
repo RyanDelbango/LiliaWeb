@@ -1,7 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
+import { BootstrapVue } from 'bootstrap-vue'
 
-Vue.config.productionTip = false
+import './app.scss'
+
+Vue.use(BootstrapVue)
 
 new Vue({
   render: h => h(App),
